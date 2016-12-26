@@ -8,10 +8,10 @@ p {
 	font-size: 18px;
 }
 .mm {
-	font-family:Pyidaungsu;
+	font-family:"Pyidaungsu";
 }
 .mm p {
-	font-family:Pyidaungsu;
+	font-family:"Pyidaungsu";
 }
 .banner {
 	margin-top: 50px;
@@ -99,7 +99,14 @@ p {
 	background-position: center center;
 	padding: 80px 0;
 }
-.course-banner1 > .header, .course-banner2 > .header {
+.course-banner3 {
+	background: #43A047;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center center;
+	padding: 80px 0;
+}
+.course-banner1 > .header, .course-banner2 > .header, .course-banner3 > .header {
 	color: white;
 	font-family: "Open Sans", sans-serif;
 	font-size: 2em;
@@ -134,4 +141,7 @@ p {
 }
 .info h1, p {
 	font-family: "Open Sans", sans-serif;
+}
+.notice {
+	line-height: 2em;
 }
