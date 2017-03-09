@@ -1,147 +1,132 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
-@import url('http://mmwebfonts.comquas.com/fonts/?font=pyidaungsu');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400");
+@import url("http://mmwebfonts.comquas.com/fonts/?font=padauk");
+/*===== Mixin =====*/
+html, body {
+  font-family: "Open Sans", sans-serif;
+  background: white; }
 
-body {
-	background-color: white;
-}
-p {
-	font-size: 18px;
-}
-.mm {
-	font-family:"Pyidaungsu";
-}
-.mm p {
-	font-family:"Pyidaungsu";
-}
+/*===== Typography =====*/
+@media (max-width: 480px) {
+  .banner {
+    padding: 20px 0; } }
+@media (min-width: 480px) {
+  .banner {
+    padding: 80px 0; } }
 .banner {
-	margin-top: 50px;
-	margin-bottom: 50px;
-}
+  background: url("images/banner2.jpg");
+  background-size: cover;
+  background-position: center center; }
+
 .banner-text {
-	font-family: "Open Sans", sans-serif;
-	font-size: 3em;
-	color: #2e3d49;
-	font-weight: 300;
-}
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-weight: 300; }
+
+@media (max-width: 480px) {
+  .banner-text {
+    font-size: 2.2em;
+    line-height: 1.5em; } }
+@media (min-width: 480px) {
+  .banner-text {
+    font-size: 2.2em;
+    line-height: 1.5em; } }
 .banner-text-slogan {
-	font-family: "Open Sans", sans-serif;
-	margin-top: 30px;
-	font-size: 1.5em;
-	color: #525c65;
-}
-.instructor {
-	padding: 50px 0;
-	background: #fafbfc;
-}
+  font-family: "Open Sans", sans-serif;
+  margin-top: 30px;
+  font-size: 130%;
+  color: white; }
+
 .header {
-	font-family: "Open Sans", sans-serif;
-	font-size: 1.8em;
-	color: #2e3d49;
-	font-weight: 300;
-	/*margin-bottom: 50px;*/
-}
-.avatar img {
-	height: 300px;
-}
-.course {
-	padding: 50px 0;
-}
-.course-banner {
-	background: url("images/banner.jpg");
-	background-attachment: fixed;
-	background-size: cover;
-	background-position: center center;
-	padding: 80px 0;
-}
-.course-banner > .header {
-	color: white;
-	font-family: "Open Sans", sans-serif;
-	font-size: 2.3em;
-	font-weight: 00;
-	letter-spacing: 1px;
-	word-spacing: 3px;
-	margin-bottom: 0;
-}
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5em;
+  color: #2e3d49;
+  font-weight: 300; }
+
+.banner-header {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  margin-bottom: 0; }
+
+@media (max-width: 480px) {
+  .banner-header {
+    font-size: 1.5em; } }
+@media (min-width: 480px) {
+  .banner-header {
+    font-size: 1.8em; } }
+.mm {
+  font-family: padauk,Yunghkio,Myanmar3,'Masterpiece Uni Sans';
+  font-size: 1em; }
+
+/*===== Footer =====*/
+.footer {
+  color: #99979C;
+  background: black;
+  padding: 100px 0;
+  text-align: center; }
+
+.footer a {
+  color: #FAFAFA; }
+
+/*===== Misc =====*/
+.mt50 {
+  margin-top: 50px; }
+
+.mb50 {
+  margin-bottom: 50px; }
+
+.notice {
+  line-height: 2em;
+  font-size: 1.5em; }
+
 .content {
-	line-height: 2.2em;
-	font-size: 1.2em;
-	font-weight: 300;
-}
-.line {
-	border-top: 2px solid #525c65;
-	width: 100px;
-}
+  line-height: 2.2em;
+  font-size: 1.2em;
+  font-weight: 300; }
+
+.avatar img {
+  height: 300px; }
+
+.instructor {
+  padding: 50px 0;
+  background: #fafbfc; }
+
+.course {
+  padding: 50px 0; }
 
 .map {
-	padding: 50px 0;
-	background: #fafbfc;
-}
-.footer {
-	color: #99979C;
-	background: black;
-	padding: 100px 0;
-	text-align: center;
-}
-.footer a {
-	color: #FAFAFA;
-}
-.course-banner1 {
-	background: #3f51b5;
-	background-attachment: fixed;
-	background-size: cover;
-	background-position: center center;
-	padding: 80px 0;
-}
-.course-banner2 {
-	background: #FF4081;
-	background-attachment: fixed;
-	background-size: cover;
-	background-position: center center;
-	padding: 80px 0;
-}
-.course-banner3 {
-	background: #43A047;
-	background-attachment: fixed;
-	background-size: cover;
-	background-position: center center;
-	padding: 80px 0;
-}
-.course-banner1 > .header, .course-banner2 > .header, .course-banner3 > .header {
-	color: white;
-	font-family: "Open Sans", sans-serif;
-	font-size: 2em;
-	font-weight: 00;
-	letter-spacing: 1px;
-	word-spacing: 3px;
-	margin-bottom: 0;
-}
-.map-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px;
-    height: 0;
-    overflow: hidden;
-}
+  padding: 50px 0;
+  background: #fafbfc; }
 
-.map-container iframe,   
-.map-container object,  
-.map-container embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
+/*===== Banner =====*/
+.level-1 {
+  background: #3f51b5;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  padding: 80px 0; }
 
-.mt50 {
-	margin-top: 50px;
-}
-.mb50 {
-	margin-bottom: 50px;
-}
-.info h1, p {
-	font-family: "Open Sans", sans-serif;
-}
-.notice {
-	line-height: 2em;
-}
+.level-2 {
+  background: #FF4081;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  padding: 80px 0; }
+
+.schedule {
+  background: #43A047;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  padding: 80px 0; }
+
+.course-banner {
+  background: url("images/banner.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  padding: 80px 0; }
+
+/*# sourceMappingURL=style.css.map */

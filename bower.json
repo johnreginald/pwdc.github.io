@@ -1,0 +1,20 @@
+{
+  "name": "my-course-landing-page",
+  "homepage": "https://github.com/johnreginald/my-course-landing-page",
+  "authors": [
+    "John Reginald <johnthelinux@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7"
+  }
+}
