@@ -1,6 +1,6 @@
 @import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/variables";
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
-@import url('http://mmwebfonts.comquas.com/fonts/?font=padauk');
+@import url('http://mmwebfonts.comquas.com/fonts/?font=pyidaungsu');
 
 /*===== Mixin =====*/
 @mixin banner($color) {
@@ -79,7 +79,7 @@ html, body {
     }
 }
 .mm {
-	font-family:padauk,Yunghkio,Myanmar3,'Masterpiece Uni Sans';
+	font-family:Pyidaungsu;
     font-size: 1em;
 }
 
@@ -116,6 +116,10 @@ html, body {
 .instructor {
 	padding: 50px 0;
 	background: #fafbfc;
+}
+.instructor h1, h4 {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
 }
 .course {
 	padding: 50px 0;
