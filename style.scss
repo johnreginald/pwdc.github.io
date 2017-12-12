@@ -1,6 +1,6 @@
 @import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/variables";
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
-@import url('http://mmwebfonts.comquas.com/fonts/?font=pyidaungsu');
+@import url('https://mmwebfonts.comquas.com/fonts/?font=oursunicode');
 
 /*===== Mixin =====*/
 @mixin banner($color) {
@@ -79,7 +79,7 @@ html, body {
     }
 }
 .mm {
-	font-family:Pyidaungsu;
+	font-family:'Ours-Unicode';
     font-size: 1em;
 }
 
@@ -103,7 +103,7 @@ html, body {
 }
 .notice {
 	line-height: 2em;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 .content {
 	line-height: 2.2em;
